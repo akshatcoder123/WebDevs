@@ -1,5 +1,4 @@
 function send(){
-  window.location.href="./home.htm"
   var name = document.getElementById("name").value
   var passwords = document.getElementById("password").value
   var email = document.getElementById("email").value
@@ -19,7 +18,7 @@ message => alert(message)
 
 );
 
-location.replace("https://127.0.0.1:5500/home.html")
+
 }
 
 //D6A7366E78D0598AE559842E14800FFFD5A2
